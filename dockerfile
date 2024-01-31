@@ -8,9 +8,9 @@ WORKDIR /var/www/html
 COPY . /var/www/html
 
 # Install any needed packages
-RUN apt-get update && \
-    apt-get install -y libmysqli-dev && \
-    docker-php-ext-install mysqli
+##RUN apt-get update && \
+   ## apt-get install -y libmysqli-dev && \
+   ## docker-php-ext-install mysqli
 
 # Make port 80 available to the world outside this container
 EXPOSE 80
