@@ -1,6 +1,6 @@
 <!-- add_task.php -->
 <?php
-$conn = new mysqli("localhost", "root", "", "task_manager");
+$conn = new mysqli("db", "root", "", "task_manager");
 
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
@@ -19,7 +19,7 @@ exit();
 
 <!-- get_tasks.php -->
 <?php
-$conn = new mysqli("localhost", "root", "", "task_manager");
+$conn = new mysqli("db", "root", "", "task_manager");
 
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
@@ -43,7 +43,7 @@ echo json_encode($tasks);
 
 <!-- delete_task.php -->
 <?php
-$conn = new mysqli("localhost", "root", "", "task_manager");
+$conn = new mysqli("db", "root", "", "task_manager");
 
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
