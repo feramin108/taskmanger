@@ -6,11 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
     <link rel="stylesheet" href="style.css">
-    <title>Task Manager</title>
+    <title>Tasks Manager</title>
 </head>
 <body>
     <div id="app">
-        <h1>Task Manager</h1>
+        <h1>Tasks Manager</h1>
         <form action="add_task.php" method="post">
             <input type="text" name="task" placeholder="Enter task..." required>
             <button type="submit">Add Task</button>
