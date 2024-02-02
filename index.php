@@ -10,7 +10,7 @@
 </head>
 <body>
     <div id="app">
-        <h1>Task Manager</h1>
+        <h1>Tasks Manager</h1>
         <form action="add_task.php" method="post">
             <input type="text" name="task" placeholder="Enter task..." required>
             <button type="submit">Add Task</button>
